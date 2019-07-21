@@ -1,0 +1,57 @@
+GIT
+  remote: https://github.com/maehachi08/goosetune.git
+  revision: f602e19c5b404f7daa45d6ba3a06c8b03bf2f0c4
+  branch: correspond-to-playgoose
+  specs:
+    goosetune (0.0.4)
+      dotenv
+      json
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (5.2.3)
+      activesupport (= 5.2.3)
+    activerecord (5.2.3)
+      activemodel (= 5.2.3)
+      activesupport (= 5.2.3)
+      arel (>= 9.0)
+    activesupport (5.2.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    arel (9.0.0)
+    concurrent-ruby (1.1.5)
+    dotenv (2.7.4)
+    i18n (1.6.0)
+      concurrent-ruby (~> 1.0)
+    json (2.2.0)
+    metaclass (0.0.4)
+    minitest (5.11.3)
+    mocha (1.9.0)
+      metaclass (~> 0.0.1)
+    mysql2 (0.5.2)
+    power_assert (1.1.4)
+    specific_install (0.3.5)
+    test-unit (3.3.3)
+      power_assert
+    thread_safe (0.3.6)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord
+  dotenv
+  goosetune (= 0.0.4)!
+  json
+  mocha
+  mysql2 (>= 0.3.18, < 0.6.0)
+  specific_install
+  test-unit
+
+BUNDLED WITH
+   2.0.1
